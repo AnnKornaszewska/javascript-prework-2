@@ -80,4 +80,8 @@ body {
 
 #button-scissors {
   background-color: rgb(255, 71, 71);
+}
+
+.container #messages {
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
