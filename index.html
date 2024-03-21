@@ -3,17 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Rampart+One&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="sass\style.css">
 </head>
 <body>
-	<div class="container">
-		<div id="buttons">
-			<button id="button-rock">Kamień</button>
-			<button id="button-paper">Papier</button>
-			<button id="button-scissors">Nożyce</button>
+	<header class="splash">
+		<div class="splash-inner">
+			<h1 class="page-title">Witaj w grze "Kamień, papier i nożyce"</h1>
+			<h2 class="page-subtitle">Zmierz się z wirtualnym graczem!</h2>
+			<div class="container">
+				<div id="buttons">
+					<button id="button-rock">Kamień</button>
+					<button id="button-paper">Papier</button>
+					<button id="button-scissors">Nożyce</button>
+				</div>
+				<div id="messages"></div>
+			</div>
 		</div>
-		<div id="messages"></div>
-	</div>
+	</header>
+	
+	
+	
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
 </body>

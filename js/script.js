@@ -9,7 +9,6 @@ buttonScissors = document.getElementById('button-scissors');
 
 
 
-
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
